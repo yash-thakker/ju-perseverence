@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.viewport-header {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    position: relative;
+    height: 20vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
