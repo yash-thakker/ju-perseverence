@@ -32,17 +32,28 @@ video {
     text-align: center;
     flex-flow: wrap;
 }
-.airmeet-btn{
-    background-color: #1a73e8;
-    padding: 15px;
-    margin: 15px;
-    color: white;
-    text-decoration: none;
-    border-radius: 25px;
-    font-family: sans-serif;
+.btn{
+    cursor: pointer; 
+    border: 1px solid white; 
+        background-color: transparent; 
+        border-radius: 25px;
+        height: 50px; 
+        width: 200px; 
+        color: white; 
+        font-size: 1rem; 
+        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+        margin: 2vw;
 }
-@media only screen and (max-width: 360px) {
-    .airmeet-btn{
-        margin: 30px;
-    }
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 440px) {
+.viewport-header{
+    margin-top: 80px;
+}
+.buttons{
+    margin-top: 2px;
+}
 }
